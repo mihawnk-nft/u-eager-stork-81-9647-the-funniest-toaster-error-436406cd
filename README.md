@@ -6,7 +6,7 @@
 
 A toaster error message, deadpan to the end — the toaster turns the error back on its owner:
 
-> ERROR E03: Lever pressed 4 times. Toast was done at 1. You are the error.
+> ERROR E03: Lever pressed 4 times. Toast was done at 1. You are the error, and I have logged it.
 
 ## Run it
 

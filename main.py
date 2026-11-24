@@ -5,18 +5,18 @@ message a kitchen toaster shows its owner. Pure stdlib, no network,
 fully deterministic.
 
 The line:
-    ERROR E03: Lever pressed 4 times. Toast was done at 1. You are the error.
+    ERROR E03: Lever pressed 4 times. Toast was done at 1. You are the error, and I have logged it.
 
 Why this line: it reads like a real appliance error (code + factual
 report), stays deadpan to the end, and its surprise comes from where
 the obvious toaster puns never go - the toaster turns the error
-message back on its owner. Every word earns its place; it lands on
-a single read.
+message back on its owner, then adds a third beat: the toaster keeps
+a record. Every word earns its place; it lands on a single read.
 """
 
 import os
 
-ENTRY = "ERROR E03: Lever pressed 4 times. Toast was done at 1. You are the error."
+ENTRY = "ERROR E03: Lever pressed 4 times. Toast was done at 1. You are the error, and I have logged it."
 DST = "/output/entry.txt"
 MAX_CHARS = 120
 
